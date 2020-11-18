@@ -1,4 +1,7 @@
-!include C4_Container.puml
+'Build
+!includeurl https://github.com/patternstormdf/c4model/blob/master/c4plantuml/C4.puml
+'Local development
+'!include C4_Container.puml
 
 ' Scope: A single container.
 ' Primary elements: Components within the container in scope.

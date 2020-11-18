@@ -1,4 +1,7 @@
-!include C4.puml
+'Build
+!includeurl https://github.com/patternstormdf/c4model/blob/master/c4plantuml/C4.puml
+'Local Dev
+'!include C4.puml
 
 ' Scope: A single software system.
 ' Primary elements: The software system in scope.
