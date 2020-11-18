@@ -1,8 +1,8 @@
 @startuml
 ' Build
-'!includeurl https://raw.githubusercontent.com/patternstormdf/c4model/master/c4plantuml/C4_Container.puml
+!includeurl https://raw.githubusercontent.com/patternstormdf/c4model/master/c4plantuml/C4_Container.puml
 'Local Dev
-!include ../c4plantuml/C4_Container.puml
+'!include ../c4plantuml/C4_Container.puml
 !define PipelineEventBus() Container(PipelineEventBus,"Pipeline Event Bus","AWS EventBridge","Stores and distributes pipeline execution events")
 !define PipelineEventProcessor() Container(PipelineEventProcessor,"Pipeline Event Processor","AWS Gateway/AWS Lambda/Python","Processes Pipeline Execution Events")
 !define CICDEngine() Container(CICDEngine,"CI/CD Engine","AWS EKS/Tekton","Orchestrates Pipeline execution, e.g. Build, Test, Package and Deploy Phases")
