@@ -1,5 +1,8 @@
 @startuml
-!include ../../c4plantuml/C4_Component.puml
+'Build
+!includeurl https://raw.githubusercontent.com/patternstormdf/c4model/master/c4plantuml/C4_Component.puml
+'Locl Dev
+'!include ../../c4plantuml/C4_Component.puml
 
 'LAYOUT_WITH_LEGEND
 

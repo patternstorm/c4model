@@ -1,5 +1,5 @@
 'Build
-!includeurl https://github.com/patternstormdf/c4model/blob/master/c4plantuml/C4.puml
+!includeurl https://raw.githubusercontent.com/patternstormdf/c4model/master/c4plantuml/C4.puml
 'Local Dev
 '!include C4.puml
 

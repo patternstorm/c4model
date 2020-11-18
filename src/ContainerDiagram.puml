@@ -1,5 +1,8 @@
 @startuml "techtribesjs"
-!include ../c4plantuml/C4_Container.puml
+'Build
+!includeurl https://raw.githubusercontent.com/patternstormdf/c4model/master/c4plantuml/C4_Container.puml
+'Local Dev
+'!include ../c4plantuml/C4_Container.puml
 ' uncomment the following line and comment the first to use locally
 ' !include C4_Container.puml
 
